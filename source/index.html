@@ -8,19 +8,21 @@
     <script src="scripts/index.js" defer></script>
   </head>
   <body class="page__body">
-    <header class="main__header">
+    <header class="main-header">
+      <div class="main-header__logo-wrapper">
      <a class="main-header__logo" href="#">
         <img src="images/logo-cat.svg" width="33" height="38" alt="Логотип Кэт Энерджи">
     </a>
     <a class="main-header__logo-tittle" href="#">
       <img src="images/logo-cat-energy.svg" width="101" height="18" alt="Логотип Кэт Энерджи">
   </a>
-    <nav class="main-nav">
-          <button class="main-nav__toggle" type="button">
+</div>
+    <nav class="main__header-nav">
+          <button class="nav__toggle" type="button">
           <span class="visually-hidden">Открыть меню</span>
           </button>
-          <div class="main-nav__wrapper">
-            <ul class="main-nav__list site-list">
+          <div class="nav__wrapper">
+            <ul class="nav__list site-list">
               <li class="site-list__item site-list__item--active">
                 <a href="#">
                   Главная
@@ -96,9 +98,13 @@
       </div>
 </dl>
           </div>
-          <div class="example__thumb">
+          <div class="example-thumb">
+            <div class="example-humb__before">
             <img src="images/before.png" width="280" height="256" alt="Фото Бориса до">
+          </div>
+          <div class="example-humb__after">
             <img src="images/after.png" width="280" height="256" alt="Фото Бориса после">
+          </div>
           </div>
           <p class="example__price">Затраты на питание: 15 000 РУБ. </p>
         </section>
